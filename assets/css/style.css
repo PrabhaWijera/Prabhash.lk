@@ -819,7 +819,8 @@ body.nav-active { overflow: hidden; }
   }
 
   .hero-title,
-  .hero-subtitle { text-shadow: 2px 2px 0 var(--eerie-black); }
+  .hero-subtitle {
+    text-shadow: 2px 2px 0 var(--eerie-black); }
 
 
 
