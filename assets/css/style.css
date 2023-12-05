@@ -717,7 +717,19 @@ body.nav-active { overflow: hidden; }
 /**
  * responsive for large than 575px screen
  */
+@media (min-width: 502px) {
+  .hero-title{
+    width: 465px;
+      }
+  :root {
+overflow-x: hidden;
+  }
 
+  .hero-subtitle{
+    font-size: 12px;
+    width: 100px;
+  }
+}
 @media (min-width: 575px) {
 
   /**
