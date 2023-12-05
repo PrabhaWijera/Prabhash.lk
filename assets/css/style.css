@@ -472,6 +472,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero-subtitle {
+  width: 678px;
   font-size: var(--fs-8);
   text-transform: uppercase;
   font-weight: var(--fw-700);
@@ -596,7 +597,10 @@ body.nav-active { overflow: hidden; }
 
 
 
+root {
+  overflow-x: hidden;
 
+}
 
 /*-----------------------------------*\
   #PORTFOLIO
@@ -717,21 +721,31 @@ body.nav-active { overflow: hidden; }
 /**
  * responsive for large than 575px screen
  */
-@media (min-width: 502px) {
+@media (min-width: 500px) {
   .hero-title{
     width: 465px;
       }
-  :root {
-overflow-x: hidden;
+  .mini{
+    color: red;
+    width: 406px;
+  }
+  root {
+    overflow-x: hidden;
+
   }
 
-  .hero-subtitle{
-    font-size: 12px;
-    width: 100px;
-  }
+
+
 }
 @media (min-width: 575px) {
+.mini{
+  color: red;
+  width: 406px;
+}
+  root {
+    overflow-x: hidden;
 
+  }
   /**
    * REUSED STYLE
    */
